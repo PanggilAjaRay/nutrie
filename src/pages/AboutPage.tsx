@@ -6,12 +6,12 @@ const AboutPage: React.FC = () => {
     <Layout>
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-gray-800 mb-8">About NutriSurvey</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-8">About Nutrié</h1>
           
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Mission</h2>
             <p className="text-gray-600 text-lg mb-4">
-              NutriSurvey is dedicated to providing accurate and comprehensive nutritional information 
+              Nutrié is dedicated to providing accurate and comprehensive nutritional information 
               for foods and beverages available at Alun Alun Kidul Yogyakarta. Our mission is to promote 
               nutritional awareness and help visitors make informed decisions about the food they consume.
             </p>
@@ -56,7 +56,7 @@ const AboutPage: React.FC = () => {
               Have questions, suggestions, or feedback? We'd love to hear from you!
             </p>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <p className="text-gray-700 mb-2"><strong>Email:</strong> info@nutrisurvey.id</p>
+              <p className="text-gray-700 mb-2"><strong>Email:</strong> info@Nutrié.id</p>
               <p className="text-gray-700 mb-2"><strong>Phone:</strong> +62 812 3456 7890</p>
               <p className="text-gray-700"><strong>Address:</strong> Alun Alun Kidul, Yogyakarta, Indonesia</p>
             </div>

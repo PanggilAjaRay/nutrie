@@ -50,9 +50,9 @@ const Home: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6 text-gray-800">About NutriSurvey</h2>
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">About Nutrié</h2>
             <p className="text-lg text-gray-600 mb-8">
-              NutriSurvey provides comprehensive nutritional information about traditional foods and beverages
+              Nutrié provides comprehensive nutritional information about traditional foods and beverages
               found at Alun Alun Kidul Yogyakarta. Our mission is to help you make informed decisions about
               the food you consume.
             </p>
