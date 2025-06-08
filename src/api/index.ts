@@ -7,7 +7,10 @@ interface SingleItemResponse {
 }
 
 export const fetchItems = async (): Promise<FoodItem[]> => {
-  const response = await fetch(`${API_URL}/items/Food_items`);
+  const response = await fetch(`${API_URL}/items/Food_items`, {
+    method: 'GET',
+    mode: 'cors',
+  });
   if (!response.ok) {
     throw new Error('Failed to fetch items');
   }
