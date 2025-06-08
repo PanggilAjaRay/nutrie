@@ -11,7 +11,8 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Nutrié by Gizi UAD</h3>
             <p className="text-gray-300">
-              Providing nutritional information for foods and beverages at Alun Alun Kidul Yogyakarta.
+              Chintiya
+              & Tiara Amanda Putri
             </p>
           </div>
 

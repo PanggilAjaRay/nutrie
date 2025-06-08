@@ -39,6 +39,6 @@ export interface User {
 export const transformFoodItem = (item: FoodItem): FoodItem & { imageUrl: string } => {
   return {
     ...item,
-    imageUrl: `https://expert-winner-rv4j4v9qwxvcx6x-8055.app.github.dev/assets/${item.image}`
+    imageUrl: `https://directus-production-e31e.up.railway.app/assets/${item.image}`
   };
 };

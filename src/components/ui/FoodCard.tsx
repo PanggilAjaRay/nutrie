@@ -19,7 +19,7 @@ const FoodCard: React.FC<FoodCardProps> = ({ item }) => {
     <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
       <div className="h-48 overflow-hidden">
         <img 
-          src={`https://expert-winner-rv4j4v9qwxvcx6x-8055.app.github.dev/assets/${item.image}`}
+          src={`https://directus-production-e31e.up.railway.app/assets/${item.image}`}
           alt={item.name} 
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
         />

@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { useAuth } from '../../context/AuthContext';
+
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const { user, logout } = useAuth();
   const location = useLocation();
 
   useEffect(() => {

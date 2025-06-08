@@ -106,7 +106,7 @@ const ItemDetailPage: React.FC = () => {
           <div>
             <div className="rounded-lg overflow-hidden shadow-md bg-white mb-6">
               <img
-                src={`https://expert-winner-rv4j4v9qwxvcx6x-8055.app.github.dev/assets/${item.image}`}
+                src={`https://directus-production-e31e.up.railway.app/assets/${item.image}`}
                 alt={item.name}
                 className="w-full h-80 object-cover"
               />
