@@ -79,7 +79,7 @@ const ItemDetailPage: React.FC = () => {
     ];
 
     if (item.category === 'food' && item.salt) {
-      rows.push(['Salt', item.salt.toString(), 'g']);
+      rows.push(['Natrium', item.salt.toString(), 'g']);
     }
 
     const csvContent = [headers.join(','), ...rows.map(row => row.join(','))].join('\n');
