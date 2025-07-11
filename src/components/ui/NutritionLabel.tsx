@@ -71,7 +71,7 @@ const NutritionLabel: React.FC<NutritionLabelProps> = ({
         )}
         
         {category === 'food' && nutritionalValues.salt && renderNutritionItem(
-          'Salt', 
+          'Natrium', 
           nutritionalValues.salt, 
           'mg'
         )}
