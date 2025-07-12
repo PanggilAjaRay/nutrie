@@ -35,13 +35,13 @@ const FoodCard: React.FC<FoodCardProps> = ({ item }) => {
         
         <div className="flex flex-wrap gap-2 mb-4">
           <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-            {item.energy} kcal
+            Energy: {item.energy} kcal
           </div>
           <div className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-medium">
-            Protein: {item.protein}g
+            Carbs: {item.carbohydrates}g
           </div>
           <div className="bg-amber-100 text-amber-800 px-2 py-1 rounded-full text-xs font-medium">
-            Carbs: {item.carbohydrates}g
+            Sugar: {item.sugar}g
           </div>
         </div>
         
