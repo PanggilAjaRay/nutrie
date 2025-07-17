@@ -23,23 +23,23 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Discover Nutritional Information for Local Foods
+            Temukan Informasi Nutrisi untuk Makanan Lokal
             </h1>
             <p className="text-xl mb-8 text-gray-100">
-              Explore the nutritional content of various foods and beverages available at Alun Alun Kidul Yogyakarta.
+            Jelajahi konten nutrisi berbagai makanan dan minuman yang tersedia di Alun Alun Kidul Yogyakarta.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 to="/foods"
                 className="px-6 py-3 bg-white text-green-600 font-bold rounded-lg hover:bg-gray-100 transition-colors"
               >
-                Explore Foods
+                Jelajahi Makanan
               </Link>
               <Link
                 to="/beverages"
                 className="px-6 py-3 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-green-600 transition-colors"
               >
-                Explore Beverages
+                Jelajahi Minuman
               </Link>
             </div>
           </div>
@@ -50,11 +50,10 @@ const Home: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6 text-gray-800">About Nutrié</h2>
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">Tentang Nutrié</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Nutrié provides comprehensive nutritional information about traditional foods and beverages
-              found at Alun Alun Kidul Yogyakarta. Our mission is to help you make informed decisions about
-              the food you consume.
+            Nutrié menyediakan informasi nutrisi yang lengkap tentang makanan dan minuman tradisional 
+            yang ditemukan di Alun Alun Kidul Yogyakarta. Misi kami adalah membantu Anda membuat keputusan yang tepat mengenai makanan yang Anda konsumsi.
             </p>
           </div>
         </div>
@@ -64,15 +63,15 @@ const Home: React.FC = () => {
       {/* Call to Action */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to explore more?</h2>
+          <h2 className="text-3xl font-bold mb-6">Siap untuk menjelajahi lebih lanjut?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Discover the complete nutritional information for all foods and beverages available at Alun Alun Kidul Yogyakarta.
+            Temukan informasi nutrisi lengkap untuk semua makanan dan minuman yang tersedia di Alun Alun Kidul Yogyakarta.
           </p>
           <Link
             to="/foods"
             className="inline-block px-6 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition-colors"
           >
-            Browse All Items
+            Jelajahi Semua Item
           </Link>
         </div>
       </section>

@@ -10,10 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Nutrié by Gizi UAD</h3>
-            <p className="text-gray-300">
-              Chintiya
-              & Tiara Amanda Putri
-            </p>
+           
           </div>
 
           <div>
@@ -26,29 +23,29 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/foods" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Foods
+                  Makanan
                 </Link>
               </li>
               <li>
                 <Link to="/beverages" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Beverages
+                  Minuman
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-green-400 transition-colors">
-                  About
+                  Tentang
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4">Contact</h3>
+            <h3 className="text-xl font-bold mb-4">Kontak</h3>
             <address className="not-italic text-gray-300">
-              <p>Alun Alun Kidul</p>
-              <p>Yogyakarta, Indonesia</p>
-              <p className="mt-2">Email: info@nutrisurvey.id</p>
-              <p>Phone: +62 812 3456 7890</p>
+              <p>Program Studi S1 Gizi, Jl. Prof.DR.Soepomo Sh, Warungboto, Umbulharjo</p>
+              <p> Yogyakarta, Daerah Istimewa Yogyakarta</p>
+              <p className="mt-2">Email: prodi@gizi.uad.ac.id</p>
+              <p>Telepon: +62 882 1573 2893</p>
             </address>
           </div>
         </div>

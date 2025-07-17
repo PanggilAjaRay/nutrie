@@ -32,7 +32,7 @@ const NutritionLabel: React.FC<NutritionLabelProps> = ({
       </div>
       
       {/* Energy/Calories */}
-      <div className="bg-gray-200 py-3 px-4 border-b border-gray-300">
+      <div className="bg-blue-200 py-3 px-4 border-b border-gray-300">
         <div className="flex justify-between items-center">
           <div className="text-lg font-bold">Energy</div>
           <div className="text-xl font-bold">
@@ -43,38 +43,42 @@ const NutritionLabel: React.FC<NutritionLabelProps> = ({
       
       {/* Nutrition Details */}
       <div className="divide-y divide-gray-200">
+      <div className="text-lg font-bold">
         {renderNutritionItem(
           'Protein', 
           nutritionalValues.protein, 
           'g',
-          'bg-green-50'
+          'bg-green-100'
         )}
         
         {renderNutritionItem(
           'Carbohydrates', 
           nutritionalValues.carbohydrates, 
           'g',
-          'bg-amber-50'
+          'bg-amber-100'
         )}
         
         {renderNutritionItem(
           'Sugar', 
           nutritionalValues.sugar, 
-          'g'
+          'g',
+          'bg-rose-50'
         )}
         
         {renderNutritionItem(
           'Fat', 
           nutritionalValues.fat, 
           'g',
-          'bg-red-50'
+          'bg-red-100'
         )}
         
         {category === 'food' && nutritionalValues.salt && renderNutritionItem(
           'Natrium', 
           nutritionalValues.salt, 
-          'mg'
+          'mg',
+          'bg-indigo-50'
         )}
+      </div>
       </div>
       
       <div className="bg-gray-100 py-2 px-4 text-xs text-gray-600">

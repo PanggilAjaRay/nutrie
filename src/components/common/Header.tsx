@@ -41,13 +41,13 @@ const Header: React.FC = () => {
               Home
             </Link>
             <Link to="/foods" className="text-gray-700 hover:text-green-500 transition-colors">
-              Foods
+              Makanan
             </Link>
             <Link to="/beverages" className="text-gray-700 hover:text-green-500 transition-colors">
-              Beverages
+              Minuman
             </Link>
             <Link to="/about" className="text-gray-700 hover:text-green-500 transition-colors">
-              About
+              Tentang
             </Link>
             
             
