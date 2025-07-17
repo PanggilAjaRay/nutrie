@@ -10,7 +10,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Nutrié by Gizi UAD</h3>
-           
+            <p>Chintiya</p>
+            <p>Tiara Amanda Putri</p>
+            <p>Firman</p>
           </div>
 
           <div>
@@ -23,24 +25,24 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/foods" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Makanan
+                  Foods
                 </Link>
               </li>
               <li>
                 <Link to="/beverages" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Minuman
+                  Beverages
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Tentang
+                  About
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4">Kontak</h3>
+            <h3 className="text-xl font-bold mb-4">Contact</h3>
             <address className="not-italic text-gray-300">
               <p>Program Studi S1 Gizi, Jl. Prof.DR.Soepomo Sh, Warungboto, Umbulharjo</p>
               <p> Yogyakarta, Daerah Istimewa Yogyakarta</p>
